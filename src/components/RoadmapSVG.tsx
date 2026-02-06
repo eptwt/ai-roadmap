@@ -54,7 +54,7 @@ const RoadmapNode = ({ id, title, video, link, x, y, width, fill, textFill = 'bl
 
 export default function RoadmapSVG() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -20 1100 3000" width="1100" height="3000">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -20 1100 3000" className="roadmap-svg">
       {/* Main vertical line */}
       <path d="M 500 50 L 500 2850" stroke="#555555" strokeWidth="3" fill="none" />
 
